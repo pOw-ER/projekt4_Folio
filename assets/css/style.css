@@ -2,3 +2,229 @@
   font-family: Athene;
   src: url(../fonts/Athene.otf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+header,main,section,footer{
+  margin:0;
+}
+h1,h2,h3,span {
+  font-family: Athene;
+  font-weight: 300;
+}
+h6{
+  margin: 0;
+  padding: 75px 75px 50px 75px;
+  font-size: 1.1rem;
+  color: #282b29;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+main section:nth-of-type(2) h6{
+  text-align: right;
+  color: #7d2222;
+}
+footer section h6{
+  color: #1d8883;
+}
+header {
+  background-color: #efe8d7;
+  padding-bottom: 100px;
+}
+header div {
+  text-align: center;
+}
+h1 {
+  font-size: 10rem;
+  text-align: center;
+  border-bottom: 1px solid #002a5a;
+  color: #002a5a;
+  margin: 0px 100px 50px;
+}
+h1:first-of-type{
+  margin-bottom: 0;
+}
+header nav {
+  padding: 0;
+}
+header hr {
+  border: none;
+  border-top: 1px solid #002a5a;
+  margin: 0;
+}
+header nav p {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #002a5a;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px 0;
+}
+header nav p:first-of-type{
+  margin-left: 100px
+}
+header nav p:last-of-type{
+  margin-left: 72%;
+}
+header div p {
+  font-size: 1.5rem;
+  color: #002a5a;
+}
+/* H2 codes */
+h2 {
+  font-size: 10rem;
+  margin: 0;
+}
+
+main section:first-of-type h2:nth-of-type(1),main section:first-of-type h2:nth-of-type(2){
+  color: #282b29;
+}
+main section:last-of-type h2:nth-of-type(1), main section:last-of-type h2:nth-of-type(2){
+  color: #7d2222;
+  text-align: right;
+}
+footer section h2:nth-of-type(1), h2:nth-of-type(2){
+  color: #1d8883;
+}
+/* h3 codes*/
+h3 {
+  font-size: 5rem;
+  color: #7d2222;
+}
+main div:nth-of-type(odd) h3 {
+  text-align: left;
+  margin: 0;
+  margin-left: 100px;
+}
+main div:nth-of-type(even) h3 {
+  text-align: right;
+  margin: 0;
+  margin-right: 100px;
+}
+
+main section div:nth-of-type(1){
+  background: url('../img/bg-marconatto-1.jpg') right no-repeat;
+  background-size: 60%;
+  margin-right: 100px;
+  padding-bottom: 200px;
+  margin-bottom: 200px;
+}
+main section div:nth-of-type(2){
+  background: url('../img/kathe_cover-1.jpg') left no-repeat;
+  background-size: 60%;
+  margin-left: 100px;
+  padding-bottom: 200px;
+  margin-bottom: 200px;
+}
+main section div:nth-of-type(3){
+  background: url('../img/bg-nicole-1.jpg') right no-repeat;
+  background-size: 60%;
+  margin-right: 100px;
+  padding-bottom: 200px;
+  margin-bottom: 200px;
+
+}
+main section div:nth-of-type(4){
+  background: url('../img/boa_cover-1.jpg') left no-repeat;
+  background-size: 60%;
+  margin-left: 100px;
+  margin-bottom: 0;
+  margin-top: 200px;
+  padding-bottom: 200px;
+}
+
+main section:first-of-type{
+  background-color: #F4C4C4;
+}
+main section:first-of-type p{
+  width: 36%;
+  margin-left: auto;
+  font-size: 1.4rem;
+  line-height: 30px;
+  margin-right: 75px;
+  font-family: 'Open Sans', sans-serif;
+  color: #555454;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+main section:nth-of-type(2) p {
+  width: 40%;
+  margin-right: auto;
+  font-size: 1.4rem;
+  line-height: 30px;
+  margin-left: 100px;
+  font-family: 'Open Sans', sans-serif;
+  color: #7d2222;
+  font-weight: 300;
+  margin-bottom: 200px;
+}
+table {
+  width: 40%;
+  margin-left: auto;
+  font-family: 'Open Sans', sans-serif;
+  color: #282b29;
+  margin-right: 75px;
+  padding-bottom: 100px;
+}
+table caption {
+  text-align: right;
+  border-bottom: 1px solid #282b29;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+table td {
+  border-bottom: 1px solid #282b29;
+  padding: 30px 0;
+}
+table tr td:first-of-type{
+  font-size: .7rem;
+  text-align: left;
+
+}
+table tr td:nth-of-type(2){
+  font-size: 1.5rem;
+}
+table tr td:nth-of-type(3){
+  font-size: 1rem;
+  width: 75px;
+}
+main section:nth-of-type(2){
+  background-color: #DEB873;
+  padding-bottom: 200px;
+}
+footer section {
+  background-color: #D2D2D2;
+}
+
+footer section p {
+  width: 30%;
+  font-size: 2rem;
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #1d8883;
+  font-weight: 300;
+  margin: 0 auto;
+}
+footer ul {
+  text-align: right;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+footer ul a {
+  text-decoration: none;
+  color: #1d8883;
+
+}
+footer ul li {
+  padding-bottom: 20px;
+  padding-right: 100px;
+}
